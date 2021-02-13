@@ -1,9 +1,13 @@
 import java.util.*;
 
 public class Encrypt
+
 {
+	
 	public static void main(String[] args)
+  
   {
+		
 		Scanner input = new Scanner(System.in);
 		char letters;
 		int click;
