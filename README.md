@@ -29,6 +29,17 @@ public class Encrypt
 					System.out.print((char)ascii);
 				}
 			 }
+			 case 2:
+			{
+				System.out.println("Enter any word to encrypt ");
+				String sentence = input.next();
+				for (int i=0; i < sentence.length();i++ )
+				{
+					letters = sentence.charAt(i);
+					int ascii = encrypt(letters);
+					System.out.print(ascii);
+				}	
+			}
 			 default:
 			   {
 				 System.exit(0);
