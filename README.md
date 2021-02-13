@@ -13,7 +13,7 @@ public class Encrypt
 		int click;
 		do
 		{
-			System.out.println("encrypt character 1 or enter 3 to exite");
+			System.out.println("Enter 1 for encrypt character  or 2 for encrypt character number or 3 for exite");
 			click = input.nextInt();
 
 			switch(click)
